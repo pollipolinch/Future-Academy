@@ -1,0 +1,255 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar {
+    background: #00093C !important;
+}
+
+.nav-page {
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: white !important;
+    display: inline !important;
+}
+
+.background {
+    background: rgb(235, 235, 248);
+    height: 100vh;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+
+.container-fluid {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.header-container__background-img {
+    width: 100%;
+    height: 350px;
+}
+
+.header-container__color-img {
+    width: 50%;
+    margin-top: -375px;
+    height: 350px;
+}
+
+.header-container__figure-img {
+    margin-top: -375px;
+    width: 57%;
+    height: 350px;
+    margin-left: 60px;
+}
+
+/* contacts */
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 34px;
+    color: #000000;
+    margin: 68px 0 30px 65px;
+}
+
+.contacts-tel {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+}
+
+.contacts-adress {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    display: block;
+}
+.contacts-icon{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.contacts-container{
+    margin-top: 65px;
+    margin-bottom: 14px;
+}
+.contacts-container__img{
+    margin-right: 20px;
+}
+.contacts-map{
+    width: 700px;
+    height: 500px;
+    margin-left: 70px;
+}
+.form-input {
+    width: 1200px;
+    height: 270px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 62px -12px rgba(216, 187, 100, 0.43);
+    -moz-box-shadow: 0px 0px 62px -12px rgba(216, 187, 100, 0.43);
+    box-shadow: 0px 0px 62px -12px rgba(216, 187, 100, 0.43);
+    position: relative;
+    margin: 20px auto 0px auto;
+}
+
+.form-input__frame {
+    position: absolute;
+    z-index: 0.5;
+    left: 20%;
+    top: 10%;
+}
+
+.form-input__title {
+    font-weight: 600;
+    position: absolute;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    left: 24%;
+    top: 15%;
+}
+
+.form-input__text {
+    font-weight: 500;
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    left: 24%;
+    top: 38%;
+}
+
+.form-input__name {
+    width: 440px;
+    height: 50px;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    border: none;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.form-input__phone {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    border: none;
+    top: 35%;
+    left: 60%;
+}
+
+.form-input__email {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    background: rgba(0, 9, 60, 0.1);
+    border-radius: 6px;
+    border: none;
+    top: 35%;
+    left: 79%;
+}
+
+.form-input__agree {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #4F4F4F;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
+.form-input__button {
+    position: absolute;
+    width: 210px;
+    height: 50.04px;
+    background: #F7941D;
+    border-radius: 10px;
+    border: none;
+    top: 60%;
+    left: 79%;
+}
+
+.form-input__button-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+}
+
+.button__owl {
+    position: absolute;
+    width: 260px;
+    height: 300px;
+    z-index: 2;
+    left: 7%;
+    margin-top: 2%;
+}
+
+/* footer */
+.footer {
+    background: #00093C;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    display: block;
+}
+
+.footer__point {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.footer-tel {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer-adress {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer-container {
+    margin-bottom: 12px;
+}
+.end {
+    display: block;
+    margin-bottom: 12px;
+}
