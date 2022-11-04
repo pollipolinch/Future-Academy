@@ -24,6 +24,9 @@
 .nav-item {
     margin-left: 30px;
 }
+.nav-logo {
+    display: inline;
+}
 .nav-logo-mv {
     display: none;
     width: 57px;
