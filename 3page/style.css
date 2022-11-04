@@ -24,7 +24,13 @@
 .nav-item {
     margin-left: 30px;
 }
-
+.nav-logo-mv {
+    display: none;
+    width: 57px;
+    height: 40px;
+    margin-left: -200px;
+    margin-top: -30px;
+}
 
 .container-fluid {
     margin-top: 20px;
@@ -50,6 +56,9 @@
 }
 
 /* contacts */
+.contacts-container-mv{
+    flex-direction: row;
+}
 .main-title {
     font-weight: 700;
     font-size: 36px;
@@ -90,6 +99,7 @@
     margin-left: 70px;
 }
 .form-input {
+    display: flex;
     width: 1200px;
     height: 270px;
     background: #FFFFFF;
@@ -194,8 +204,8 @@
     width: 260px;
     height: 300px;
     z-index: 2;
-    left: 7%;
-    margin-top: 2%;
+    left: -3%;
+    margin-top: 3%;
 }
 
 /* footer */
@@ -234,7 +244,14 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+    margin-top: 1px;
     margin-bottom: 12px;
+}
+
+.footer-container__img {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 15px;
 }
 
 .footer-adress {
@@ -249,7 +266,11 @@
 .footer-container {
     margin-bottom: 12px;
 }
+
 .end {
     display: block;
-    margin-bottom: 12px;
+}
+
+.footer-link-mv {
+    display: block;
 }

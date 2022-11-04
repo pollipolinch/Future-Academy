@@ -16,34 +16,85 @@
     display: inline !important;
 }
 
+.nav-logo-mv {
+    display: none;
+    width: 57px;
+    height: 40px;
+    margin-left: -200px;
+    margin-top: -30px;
+}
+
 .background {
     background: rgb(235, 235, 248);
     height: 100vh;
+}
+
+.nav-logo {
+    display: block;
 }
 
 .nav-item {
     margin-left: 30px;
 }
 
+.nav-img {
+    display: inline;
+}
 
 .container-fluid {
     margin-top: 20px;
     margin-left: 100px;
 }
 
+.header-container-mv {
+    display: none;
+}
+
+.header-container-girl-mv {
+    width: 100%;
+}
+
+.header-container-color-mv {
+    width: 100%;
+}
+
+.header-container-title-mv {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: -210px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.header-container-text-mv {
+    position: absolute;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .header-container__background-img {
+    display: inline;
     width: 100%;
     height: 350px;
 }
 
 .header-container__color-img {
     width: 50%;
+    display: inline;
     margin-top: -375px;
     height: 350px;
 }
 
 .header-container__figure-img {
     margin-top: -375px;
+    display: inline;
     width: 57%;
     height: 350px;
     margin-left: 60px;
@@ -103,20 +154,24 @@
 }
 
 .video__img-triange {
+    display: inline;
     margin-top: -300px;
     margin-left: 200px;
 }
 
 .video__img-line {
+    display: inline;
     margin-top: 350px;
     margin-left: -300px;
 }
 
 .video__img-line-high {
+    display: inline;
     margin-left: 600px;
 }
 
 .video__img-cross {
+    display: inline;
     margin-left: 1020px;
 }
 
@@ -130,10 +185,12 @@
     font-size: 16px;
     line-height: 26px;
     color: #000000;
+    margin-top: 1px;
 
 }
 
 .our-values-text-down {
+    margin-top: 65px;
     font-size: 14px;
     color: rgb(79, 79, 79);
 }
@@ -141,6 +198,7 @@
 .our-values-img {
     height: 400px;
     width: 380px;
+    margin-left: 0px;
 }
 
 .our-values-img__title {
@@ -182,6 +240,7 @@
 
 /* our-people */
 .our-people__background {
+    width: 100%;
     height: 600px;
     margin-top: 70px;
     background: #120947;
@@ -206,6 +265,14 @@
     margin-top: 20px;
     z-index: 2;
     position: relative;
+}
+
+.our-people-container-mv-none {
+    display: block;
+}
+
+.our-people-container-mv {
+    margin-left: -30px;
 }
 
 .our-people-container__cicle {
@@ -242,18 +309,21 @@
 
 .our-people-figure__cicle {
     position: absolute;
+    display: inline;
     left: 72%;
     top: 50.97%;
     z-index: 1;
 }
 
 .our-people-figure__cross {
+    display: inline;
     position: absolute;
     left: 0%;
     top: 6%;
 }
 
 .our-people-figure__triangle {
+    display: inline;
     position: absolute;
     left: 40%;
     top: 70%;
@@ -261,6 +331,7 @@
 }
 
 .our-people-figure__line-right {
+    display: inline;
     position: absolute;
     top: 89.5%;
     left: 5%;
@@ -278,11 +349,11 @@
 
 /* our-program */
 .our-program-text {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    padding-top: 13px;
 }
 
 .our-program-container {
@@ -291,13 +362,31 @@
     padding-top: 50px;
 }
 
-.our-program-container__number {
+.our-program-container__number-600 {
     display: block;
+    width: 180px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.our-program-container__number-82 {
+    width: 116px;
+    height: 70px;
+    display: block;
+    margin-left: 20px;
+}
+
+.our-program-container__number-14795 {
+    width: 305px;
+    height: 70px;
+    display: block;
+    margin-left: 20px;
 }
 
 .our-program-container__description {
     display: block;
     margin-top: 15px;
+    margin-left: 20px;
 }
 
 /* our-partners */
@@ -313,6 +402,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+
+.our-partners__background-mv {
+    display: flex;
 }
 
 /* buttons */
@@ -362,6 +455,7 @@
 }
 
 .form-input {
+    display: flex;
     width: 1200px;
     height: 270px;
     background: #FFFFFF;
@@ -466,8 +560,8 @@
     width: 260px;
     height: 300px;
     z-index: 2;
-    left: 7%;
-    margin-top: 15%;
+    margin-left: -3%;
+    margin-top: 3%;
 }
 
 /* footer */
@@ -506,7 +600,14 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
+    margin-top: 1px;
     margin-bottom: 12px;
+}
+
+.footer-container__img {
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 15px;
 }
 
 .footer-adress {
@@ -524,5 +625,8 @@
 
 .end {
     display: block;
-    margin-bottom: 12px;
+}
+
+.footer-link-mv {
+    display: block;
 }

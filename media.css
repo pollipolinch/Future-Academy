@@ -1,3 +1,165 @@
-@media (max-width:600px){
+@media (max-width:600px) {
+    .main-title {
+        font-size: 24px;
+        margin: 34px 0 30px 10px;
+    }
+
+    /* navbar */
+    .nav-logo {
+        display: none;
+    }
+
+    .navbar {
+        background: #00093C !important;
+    }
+
+    .nav-page {
+        color: white !important;
+    }
+
+    .nav-logo-mv {
+        display: block;
+    }
+
+    .nav-img {
+        display: none;
+    }
+    .header-container-mv{
+        display: block;
+    }
+    .header-container__background-img {
+        display: none;
+    }
     
+    .header-container__color-img {
+        display: none;
+    }
+    
+    .header-container__figure-img {
+       display: none;
+    }
+    /* .about-us */
+    .about-us__img-figure {
+        margin-top: 40px;
+    }
+
+    /* video */
+    .video__img-triange {
+        display: none;
+    }
+
+    .video__img-line {
+        display: none;
+    }
+
+    .video__img-line-high {
+        display: none;
+    }
+
+    .video__img-cross {
+        display: none;
+    }
+
+    .video {
+        width: 330px;
+        height: 180px;
+        margin: 50px auto 0px 30px;
+        position: relative;
+    }
+
+    /* .our-values */
+    .our-values-img {
+        height: 316px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .our-values-text {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .our-values-text-down {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    .our-values-icon__desctiption {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* our-people */
+    .our-people__title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .our-people-figure__cicle {
+        display: none;
+    }
+
+    .our-people-figure__cross {
+        display: none;
+    }
+
+    .our-people-figure__triangle {
+        display: none;
+    }
+
+    .our-people-figure__line-right {
+        display: none;
+    }
+
+    .our-people-container-mv-none {
+        display: none;
+    }
+
+    .our-people-container-mv {
+        margin-left: 60px;
+    }
+
+    .our-people-line {
+        width: 350px;
+    }
+
+    /* .our-program */
+    .our-program-container {
+        display: inline-block;
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    /* .our-partners */
+    .our-partners__background-mv {
+        display: none;
+    }
+
+    /* buttons */
+    .button-background {
+        width: 145px;
+        height: 160px;
+    }
+
+    .form-input {
+        display: none;
+    }
+
+    /* footer */
+    .footer-link-mv {
+        display: none;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-tel {
+        margin-top: 20px;
+    }
+
+    .footer-container__img {
+        margin-right: 40px;
+        margin-left: 10px;
+    }
 }
