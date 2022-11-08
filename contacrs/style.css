@@ -97,13 +97,14 @@
     margin-right: 20px;
 }
 .contacts-map{
-    width: 700px;
-    height: 500px;
+    width: 80%;
+    height: 60%;
     margin-left: 70px;
 }
+/* input */
 .form-input {
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: 270px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -112,13 +113,6 @@
     box-shadow: 0px 0px 62px -12px rgba(216, 187, 100, 0.43);
     position: relative;
     margin: 20px auto 0px auto;
-}
-
-.form-input__frame {
-    position: absolute;
-    z-index: 0.5;
-    left: 20%;
-    top: 10%;
 }
 
 .form-input__title {
@@ -142,8 +136,8 @@
 }
 
 .form-input__name {
-    width: 440px;
-    height: 50px;
+    width: 31%;
+    height: 20%;
     background: rgba(0, 9, 60, 0.1);
     border-radius: 6px;
     border: none;
@@ -154,8 +148,8 @@
 
 .form-input__phone {
     position: absolute;
-    width: 210px;
-    height: 50px;
+    width: 15%;
+    height: 20%;
     background: rgba(0, 9, 60, 0.1);
     border-radius: 6px;
     border: none;
@@ -165,13 +159,13 @@
 
 .form-input__email {
     position: absolute;
-    width: 210px;
-    height: 50px;
+    width: 15%;
+    height: 20%;
     background: rgba(0, 9, 60, 0.1);
     border-radius: 6px;
     border: none;
     top: 35%;
-    left: 79%;
+    left: 76%;
 }
 
 .form-input__agree {
@@ -186,13 +180,13 @@
 
 .form-input__button {
     position: absolute;
-    width: 210px;
-    height: 50.04px;
+    width: 15%;
+    height: 20%;
     background: #F7941D;
     border-radius: 10px;
     border: none;
     top: 60%;
-    left: 79%;
+    left: 76%;
 }
 
 .form-input__button-title {
@@ -207,10 +201,9 @@
     width: 260px;
     height: 300px;
     z-index: 2;
-    left: -3%;
+    margin-left: -3%;
     margin-top: 3%;
 }
-
 /* footer */
 .footer {
     background: #00093C;

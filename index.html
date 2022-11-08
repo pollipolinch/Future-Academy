@@ -21,15 +21,15 @@
 
 <body class="background">
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img class="nav-logo" src="./img/logo.png" alt=""></a>
                 <a class="navbar-brand" href="./index.html"><img class="nav-logo-mv" src="./img/logo-белый.png"
                         alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button style="color: white;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span style="color: white; z-index: 11;" class="navbar-toggler-icon text-white"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -72,18 +72,17 @@
         <div class="header-container">
             <div class="header-container-mv">
                 <img class="header-container-girl-mv" src="./img/header-girl-mv.png" alt="">
-                <img class="header-container-color-mv" src="./img/header-container-color-mv.png" alt="">
+                <div class="header-container-color-mv">
                 <h1 class="header-container-title-mv">Образовательная платформа <br> ХОД Future Academy</h1>
                 <p class="header-container-text-mv">Актуальные знания для новичков и профессионалов</p>
             </div>
+        </div>
             <div class="header-container__background">
-                <img class="header-container__background-img"
-                    src="./img/header-girl.png" alt="">
-                </div>
+                <img class="header-container__background-img" src="./img/header-girl.png" alt="">
+            </div>
             <div class="header-container__color">
-                <img class="header-container__color-img" src="./img/header-fon.png"
-                    alt="">
-                </div>
+                <img class="header-container__color-img" src="./img/header-fon.png" alt="">
+            </div>
             <div class="header-container__figure"><img class="header-container__figure-img"
                     src="./img/header-figure.png" alt=""></div>
         </div>
@@ -93,34 +92,40 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="about-us-container">
-                            <div class="about-us-title">Приветствуем <br>
-                                в Академии будущего <br> ХОД! <br>
-                                <span class="about-us-text"> Вам у нас понравится:)</span>
+                            <div class="about-us__img-frame">
+                                <h1 class="about-us-title">Приветствуем
+                                    в Академии будущего ХОД!
+                                    <span class="about-us-text"> Вам у нас понравится:)</span>
+                                </h1>
                             </div>
-                            <img class="about-us__img-frame" src="./img/рамка.png" alt="">
                             <img class="about-us__img-owl" src="./img/сова.png" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="about-us-container-col">
+                            <img class="about-us__img-figure" src="./img/крестик.png" alt="">
+                            <p class="about-us__title">Мы создали Академию<span class="about-us__text">
+                                    для детей, чтобы компьютер был
+                                    не зависимостью и игрушкой,
+                                    а другом на пути обучения
+                                    и развития.</span></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <img class="about-us__img-figure" src="./img/крестик.png" alt="">
-                        <span class="about-us__title">Мы создали Академию <br><span class="about-us__text">
-                                для детей, чтобы компьютер был <br>
-                                не зависимостью и игрушкой, <br>
-                                а другом на пути обучения <br>
-                                и развития.</span></span>
+                        <div class="about-us-container-col">
+                            <img class="about-us__img-figure" src="./img/круг.png" alt="">
+                            <p class="about-us__title">Мы создали Академию<span class="about-us__text">для
+                                    подростков, чтобы «Кем я хочу стать?» больше не был самым сложным
+                                    вопросом.</span></p>
+                        </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <img class="about-us__img-figure" src="./img/круг.png" alt="">
-                        <span class="about-us__title">Мы создали Академию <br><span class="about-us__text">для
-                                подростков, чтобы «Кем я <br> хочу стать?» больше не был <br> самым сложным
-                                вопросом.</span></span>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <img class="about-us__img-figure" src="./img/треугольник.png" alt="">
-                        <span class="about-us__title">Мы создали Академию <br> <span class="about-us__text">для
-                                взрослых, чтобы у них была <br> возможность начать с чиcтого <br> листа и создать лучшую
-                                версию <br> себя в любом возрасте.</span></span>
+                        <div class="about-us-container-col">
+                            <img class="about-us__img-figure" src="./img/треугольник.png" alt="">
+                            <p class="about-us__title">Мы создали Академию <br> <span class="about-us__text">для
+                                    взрослых, чтобы у них была возможность начать с чиcтого листа и создать
+                                    лучшую
+                                    версию себя в любом возрасте.</span></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,20 +135,18 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <img class="video__img-triange" src="./img/about-us треугольник.png" alt="">
-            <img class="video__img-line" src="./img/about-us линия ниж.png" alt="">
-            <img class="video__img-line-high" src="./img/about-us линия верх.png" alt="">
-            <img class="video__img-cross" src="./img/about-us крест.png" alt="">
         </section>
         <section class="our-values">
             <div class="container our-values-container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                        <img class="our-values-img" src="./img/foto.png" alt="">
-                        <span class="our-values-img__title">Иванов И. И.</span>
-                        <span class="our-values-img__text">Основатель Академии будущего ХОД</span>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                        <div class="our-values-img">
+                            <img class="our-values-img-foto" src="./img/foto.png" alt="">
+                            <h1 class="our-values-img__title">Иванов И. И.</h1>
+                            <h1 class="our-values-img__text">Основатель Академии будущего ХОД</h1>
+                        </div>
                     </div>
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                         <p class="our-values-text">«Все началось с любви к шахматам. Я хотел
                             предвидеть ход противника, хотел <br> просчитать его действия, хотел побеждать. Я не стал
                             гением шахмат, но стратег <br> и психолог из меня неплохой» - смеется Иван Иванович. Идея
@@ -164,28 +167,28 @@
             <h1 class="main-title">Наши ценности</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-6">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <img class="our-values-icon" src="./img/our-values-1.png" alt="">
                         <span class="our-values-icon__desctiption">Содержание обучения <br> должно быть актуальным, <br>
                             а методика проверенная <br> годами.</span>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-6">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <img class="our-values-icon" src="./img/our-values-2.png" alt="">
                         <span class="our-values-icon__desctiption">Педагог - прежде всего <br> личность компетентная
                             <br>
                             и харизматичная.</span>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-6">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <img class="our-values-icon" src="./img/our-values-3.png" alt="">
                         <span class="our-values-icon__desctiption">Точка развития <br> образования - ребенок, <br> его
                             интересы <br>
                             и потребности</span>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-6">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <img class="our-values-icon" src="./img/our-values-4.png" alt="">
                         <span class="our-values-icon__desctiption">Прогрессом правит <br> любовь к знаниям</span>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-6">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <img class="our-values-icon" src="./img/our-values-5.png" alt="">
                         <span class="our-values-icon__desctiption">Технологии правят <br> миром, а человек эти <br>
                             технологии создает</span>
@@ -202,8 +205,8 @@
                 <img class="our-people-figure__triangle" src="./img/our-people-треугольник.png" alt="">
                 <div class="container">
                     <div class="row">
-                        <div class="col">
-                            <div class="our-people-container our-people-container-mv">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="our-people-container">
                                 <img class="our-people-container__cicle" src="./img/обводка.png" alt="">
                                 <img class="our-people-container__img" src="./img/our-people-1.png" alt="">
                                 <span class="our-people-container__title">Ирина Туканова</span>
@@ -212,8 +215,8 @@
                                     и участвует в турнирах.</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="our-people-container our-people-container-mv-none">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="our-people-container">
                                 <img class="our-people-container__cicle" src="./img/обводка.png" alt="">
                                 <img class="our-people-container__img" src="./img/our-people-2.png" alt="">
                                 <span class="our-people-container__title">Георгий Дронов</span>
@@ -222,8 +225,8 @@
                                     и участвует в турнирах.</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="our-people-container our-people-container-mv-none">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="our-people-container">
                                 <img class="our-people-container__cicle" src="./img/обводка.png" alt="">
                                 <img class="our-people-container__img" src="./img/our-people-3.png" alt="">
                                 <span class="our-people-container__title">Нина Кудрявцева</span>
@@ -232,8 +235,8 @@
                                     и участвует в турнирах.</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="our-people-container our-people-container-mv-none">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="our-people-container">
                                 <img class="our-people-container__cicle" src="./img/обводка.png" alt="">
                                 <img class="our-people-container__img" src="./img/our-people-4.png" alt="">
                                 <span class="our-people-container__title">Алексей Носов</span>
@@ -242,8 +245,8 @@
                                     и участвует в турнирах.</span>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="our-people-container our-people-container-mv-none">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="our-people-container">
                                 <img class="our-people-container__cicle" src="./img/обводка.png" alt="">
                                 <img class="our-people-container__img" src="./img/our-people-5.png" alt="">
                                 <span class="our-people-container__title">Кирилл Бунин</span>
@@ -380,35 +383,34 @@
             <h1 class="main-title">Нажми, если это о тебе</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <button class="button-background blue">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="button-background blue">
                             <img class="button-background__img" src="./img/playtime.png" alt=""><br>
                             <span class="button-background__text">Я хочу, чтобы мой ребенок был успешным</span>
-                        </button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <button class="button-background yellow">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="button-background yellow">
                             <img class="button-background__img" src="./img/budget.png" alt=""><br>
                             <span class="button-background__text">Я хочу больше зарабатывать</span>
-                        </button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <button class="button-background purple">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="button-background purple">
                             <img class="button-background__img" src="./img/mobile-game.png" alt=""><br>
                             <span class="button-background__text">Мой ребенок не выпускает гаджет из рук</span>
-                        </button>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <button class="button-background green">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="button-background green">
                             <img class="button-background__img" src="./img/it.png" alt=""><br>
                             <span class="button-background__text">Я хочу стать айтишником</span>
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="form-input">
                 <img class="button__owl" src="./img/Сова-01 2.png" alt="">
-                <img class="form-input__frame" src="./img/рамка большая.png" alt="">
                 <span class="form-input__title">Помочь с выбором?</span>
                 <span class="form-input__text"> Оставьте заявку и наши специалисты <br> свяжутся с вами, ответят на все
                     вопросы <br>
@@ -432,11 +434,11 @@
                     <span class="footer-adress">г. Москва, ул. Ленина, д. 50</span>
                     <span class="footer-adress">info@hodfutureacademy.ru</span>
                     <div class="footer-container">
-                        <img class="footer-container__img" src="./img/vk.png" alt="">
-                        <img class="footer-container__img" src="./img/inst.png" alt="">
-                        <img class="footer-container__img" src="./img/facebook.png" alt="">
-                        <img class="footer-container__img" src="./img/youtube.png" alt="">
-                        <img class="footer-container__img" src="./img/telegram.png" alt="">
+                        <a target="_blank" href="https://vk.com/"><img class="footer-container__img" src="./img/vk.png" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img class="footer-container__img" src="./img/inst.png" alt=""></a>
+                        <a target="_blank" href="https://ru-ru.facebook.com/"><img class="footer-container__img" src="./img/facebook.png" alt=""></a>
+                        <a target="_blank" href="https://www.youtube.com/"><img class="footer-container__img" src="./img/youtube.png" alt=""></a>
+                        <a target="_blank" href="https://telegram.org/"><img class="footer-container__img" src="./img/telegram.png" alt=""></a>
                     </div>
                     <img class="footer-container__img end" src="./img/yandex.png" alt="">
                     <img class="footer-container__img" src="./img/© ХОД, Future Academy.png" alt="">
